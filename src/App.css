@@ -1,0 +1,38 @@
+.app{
+  height: 100%;
+  width:100%;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(8, 163, 214);
+  padding: 10px 20px;
+
+  h3 {
+    margin: 0;
+    color: #fff;
+    font-size: medium;
+    font-weight: 500;
+  }
+}
+
+.primary-logo{
+  height: 100px;
+  margin: 20px;
+}
+
+.header-logo{
+  height: 45px;
+}
+
+.link-container{
+  a{
+      text-decoration: none;
+  }
+}
+
+.justify-center{
+  justify-content: center;
+}

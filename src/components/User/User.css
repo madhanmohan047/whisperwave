@@ -1,0 +1,49 @@
+.latest-msg-preview {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 280px;
+    font-size: small;
+}
+
+.user-item {
+    border-bottom: 1px solid #D7D7D7;
+    background-color: rgb(8, 163, 214);
+    color: #fff
+}
+
+.user-item:hover{
+    background-color: rgb(8, 163, 214, 0.8);
+}
+
+.active-user,
+.active-user.user-item{
+    background-color: rgb(8, 163, 214);
+    color: #fff
+}
+
+.user-item .MuiListItemButton-root,
+.user-item .MuiListItemButton-root:hover{
+    background-color: transparent;
+    padding: 8px 0;
+}
+
+.user-item .MuiTouchRipple-root{
+    display: none;
+}
+
+.user-details-wrapper{
+    width: 100%;
+}
+
+.user-name-timestamp{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    color: #FFF;
+}
+
+.msg-timestamp{
+    font-size: small;
+}

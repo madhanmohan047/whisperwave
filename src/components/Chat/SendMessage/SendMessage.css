@@ -1,0 +1,35 @@
+.send-message-wrapper {
+    display: flex;
+    width: 100%;
+    padding: 5px;
+    background-color: rgb(8, 163, 214);
+    align-items: center;
+    height: 60px;
+}
+
+.send-message-input {
+    flex: 1;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+    background-color: rgba(196, 237, 251);
+    width: calc(100% - 50px);
+    padding: 2px 4px;
+    line-height: 30px;
+    font-family: inherit;
+}
+
+button.send-message-btn,
+button.send-message-btn:hover {
+    background-color: transparent;
+    padding: 0;
+    color: #fff;
+}
+
+@media screen and (max-width: 720px) {
+    .send-message-wrapper {
+        padding: 0 5px;
+    }
+
+}

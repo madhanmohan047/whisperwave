@@ -1,0 +1,11 @@
+{
+    "firebaseConfig" : {
+        "apiKey": "AIzaSyBy4Lvzz3Hai6wQTJ_ZyMZuRr8-gk4_kHg",
+        "authDomain": "accelerators-c748d.firebaseapp.com",
+        "projectId": "accelerators-c748d",
+        "storageBucket": "accelerators-c748d.appspot.com",
+        "messagingSenderId": "481403597952",
+        "appId": "1:481403597952:web:febdfed188fb0d4dada265",
+        "measurementId": "G-HVHVZGMS1H"
+    }
+}

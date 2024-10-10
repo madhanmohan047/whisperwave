@@ -1,0 +1,21 @@
+.messages-wrapper {
+    background-color: #fff;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    overflow-y: auto;
+    height: calc(100% -130px);
+}
+
+.scroll-ref {
+    display: inline-flex;
+    height: 2px;
+    width: 100%;
+}
+
+@media screen and (max-width: 720px) {
+    .messages-wrapper {
+        height: calc(100% - 120px);
+    }
+}
